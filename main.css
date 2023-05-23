@@ -1,0 +1,124 @@
+.espece {
+    width: 15vw;
+    color: rgb(81, 79, 83);
+}
+
+.groupe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mapage {
+    display: none;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background-image: url("restaurant-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.menu-section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.menu-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.menu-item {
+    margin-bottom: 2rem;
+}
+
+.menu-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.menu-item p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.reservation-section {
+    background-color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.reservation-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.reservation-form input,
+.reservation-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.reservation-form button {
+    padding: 0.5rem 2rem;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reservation-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
